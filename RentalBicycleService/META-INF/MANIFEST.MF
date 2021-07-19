@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RentalBicycleService
+Bundle-SymbolicName: RentalBicycleService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: rentalbicycleservice.Activator
+Import-Package: org.osgi.framework;version="1.3.0",
+ rentalfootbicycle,
+ rentalmoterbike
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: rentalbicycleservice
+
+
